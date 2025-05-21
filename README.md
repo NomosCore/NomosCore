@@ -1,2 +1,2 @@
 # NomosCore
-(Muas nu eingrichtet werden)
+Muss noch erstellt werden
