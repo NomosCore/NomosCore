@@ -1,0 +1,35 @@
+name: NomosCore
+version: '0.0.1-testversion'
+main: github.dave1610.nomosCore.NomosCore
+api-version: '1.21'
+authors: [ Dave1610 ]
+description: Ein Wirtschftssystem für einen Minecraft 1.21.4 Server
+commands:
+  adminpanel:
+    aliases: ap
+    description: opens the adminpanel
+    permission: nomoscore.adminpanel
+  heal:
+    description: heal the commandsender
+    permission: nomoscore.heal
+  develop:
+    aliases: dev
+    description: for develop only
+    permission: nomoscore.dev.*
+  feed:
+    description: Restores the player's hunger and saturation levels to full.
+    permission: nomoscore.feed
+
+permissions:
+  nomoscore.adminpanel:
+    default: op
+  nomoscore.heal.self:
+    default: op
+  nomoscore.heal.others:
+    default: op
+  nomoscore.dev.*:
+    default: op
+  nomoscore.feed.self:
+    default: op
+  nomoscore.feed.others:
+    default: op
