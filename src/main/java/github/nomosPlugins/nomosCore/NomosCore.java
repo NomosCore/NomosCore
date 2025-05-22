@@ -1,9 +1,9 @@
-package github.dave1610.nomosCore;
+package github.nomosPlugins.nomosCore;
 
-import github.dave1610.nomosCore.commands.AdminPanel;
-import github.dave1610.nomosCore.commands.DeveloperCommand;
-import github.dave1610.nomosCore.commands.FeedCommand;
-import github.dave1610.nomosCore.commands.HealCommand;
+import github.nomosPlugins.nomosCore.commands.AdminPanel;
+import github.nomosPlugins.nomosCore.commands.DeveloperCommand;
+import github.nomosPlugins.nomosCore.commands.FeedCommand;
+import github.nomosPlugins.nomosCore.commands.HealCommand;
 import org.bukkit.plugin.java.JavaPlugin;
 
 public final class NomosCore extends JavaPlugin {
