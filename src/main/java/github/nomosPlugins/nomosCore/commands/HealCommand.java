@@ -13,7 +13,7 @@ public class HealCommand implements CommandExecutor {
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command cmd, @NotNull String label, @NotNull String[] args) {
         if (!(sender instanceof Player)) {
-            sender.sendMessage("Nur Spieler können diesen Befehl benutzen!");
+            sender.sendMessage("Only players can execute this command.");
             return true;
         }
 
@@ -22,33 +22,34 @@ public class HealCommand implements CommandExecutor {
         if (args.length == 0) {
             // Selbst heilen
             if (!p.hasPermission("nomoscore.heal.self")) {
-                p.sendMessage(ChatColor.RED + "Keine Berechtigung, dich selbst zu heilen.");
+                p.sendMessage(ChatColor.RED + "You don't have permission to heal yourself.");
                 return true;
             }
 
             heal(p);
-            p.sendMessage(ChatColor.GREEN + "Du hast dich erfolgreich geheilt!");
+            p.sendMessage(ChatColor.GREEN + "You have successfully healed yourself!");
         } else {
             // Anderen heilen
             if (!p.hasPermission("nomoscore.heal.others")) {
-                p.sendMessage(ChatColor.RED + "Keine Berechtigung, andere zu heilen.");
+                p.sendMessage(ChatColor.RED + "You don't have permission to heal yother players.");
                 return true;
             }
 
             Player target = Bukkit.getPlayer(args[0]);
 
             if (target == null || !target.isOnline()) {
-                p.sendMessage(ChatColor.RED + "Spieler \"" + args[0] + "\" wurde nicht gefunden.");
+                p.sendMessage(ChatColor.RED + "THe player \"" + args[0] + "\" was not found.");
                 return true;
             }
 
             heal(target);
 
             if (target.equals(p)) {
-                p.sendMessage(ChatColor.GREEN + "Du hast dich erfolgreich geheilt!");
+                p.sendMessage(ChatColor.GREEN + "You have successfully healed yourself!");
             } else {
-                target.sendMessage(ChatColor.GREEN + "Du wurdest von " + p.getName() + " geheilt!");
-                p.sendMessage(ChatColor.GREEN + "Du hast " + target.getName() + " geheilt.");
+                target.sendMessage(ChatColor.GREEN + "You have been healed by " + p.getName() + "!");
+                p.sendMessage(ChatColor.GREEN + "You healed " + target.getName() + ".");
+
             }
         }
 

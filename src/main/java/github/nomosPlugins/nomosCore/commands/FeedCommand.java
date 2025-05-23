@@ -12,7 +12,7 @@ public class FeedCommand implements CommandExecutor {
     @Override
     public boolean onCommand(@NotNull CommandSender sender, @NotNull Command cmd, @NotNull String label, @NotNull String[] args) {
         if (!(sender instanceof Player)) {
-            sender.sendMessage("Nur Spieler können diesen Befehl benutzen!");
+            sender.sendMessage("Only players can execute this command.");
             return true;
         }
 

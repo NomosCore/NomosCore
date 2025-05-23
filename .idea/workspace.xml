@@ -5,13 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7d958597-cd74-494a-9382-59f9f60cd784" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/dave1610/nomosCore/NomosCore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/nomosPlugins/nomosCore/NomosCore.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/dave1610/nomosCore/commands/AdminPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/nomosPlugins/nomosCore/commands/AdminPanel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/dave1610/nomosCore/commands/DeveloperCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/nomosPlugins/nomosCore/commands/DeveloperCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/dave1610/nomosCore/commands/FeedCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/nomosPlugins/nomosCore/commands/FeedCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/github/dave1610/nomosCore/commands/HealCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/nomosPlugins/nomosCore/commands/HealCommand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/nomosPlugins/nomosCore/commands/DeveloperCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/nomosPlugins/nomosCore/commands/DeveloperCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/nomosPlugins/nomosCore/commands/FeedCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/nomosPlugins/nomosCore/commands/FeedCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/github/nomosPlugins/nomosCore/commands/HealCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/github/nomosPlugins/nomosCore/commands/HealCommand.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +45,7 @@
     &quot;Maven.NomosCore [package].executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;tests&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;#6 on tests&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -78,6 +75,8 @@
       <workItem from="1747833496287" duration="117000" />
       <workItem from="1747833701268" duration="2547000" />
       <workItem from="1747896395045" duration="5000" />
+      <workItem from="1747927900247" duration="644000" />
+      <workItem from="1747981598597" duration="343000" />
     </task>
     <servers />
   </component>
