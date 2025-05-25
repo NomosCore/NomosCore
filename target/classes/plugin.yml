@@ -1,5 +1,5 @@
 name: NomosCore
-version: '0.0.2-testversion'
+version: '0.0.3-testversion'
 main: github.nomosPlugins.nomosCore.NomosCore
 api-version: '1.21'
 authors: [ Dave1610 ]

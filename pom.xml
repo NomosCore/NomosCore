@@ -6,7 +6,7 @@
 
     <groupId>github.dave1610</groupId>
     <artifactId>NomosCore</artifactId>
-    <version>0.0.2-testversion</version>
+    <version>0.0.3-testversion</version>
     <packaging>jar</packaging>
 
     <name>NomosCore</name>

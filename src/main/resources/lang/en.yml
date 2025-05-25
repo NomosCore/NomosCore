@@ -1,0 +1,35 @@
+prefix: "§6NomosCore §7» §r"
+
+onlyPlayer: "&cOnly players can use this command!"
+noPermission:
+  feed:
+    self: "&cYou don't have permission to feed yourself."
+    others: "&cYou don't have permission to feed other players."
+  heal:
+    self: "&cYou don't have permission to heal yourself."
+    others: "&cYou don't have permission to heal other players."
+  dev: "&cYou are not a developer!"
+  adminPanel: "&cYou don't have permission to use the admin panel."
+
+playerNotFound: "&cPlayer not found."
+
+feed:
+  self: "&aYour hunger has been fully satisfied."
+  gotFed: "&aYou have been fed by "
+  other: "&aYou fed the player "
+
+heal:
+  self: "&aYou have successfully healed yourself!"
+  gotHealed: "&aYou have been healed by "
+  other: "&aYou healed the player "
+
+adminPanel:
+  inDevelopment: "&cThe admin panel is still in development..."
+
+devCommand:
+  noArgs: "&cYou must enter a test command (e.g. heal/feed/maxhealth)"
+  heal: "&aReady to test: HealCommand"
+  feed: "&aReady to test: FeedCommand"
+  maxHealth: "&aReady to test: MaxHealth method"
+  missingHealthValue: "&cPlease provide a health value."
+  invalidHealthValue: "&cInvalid number. Please enter a valid number for health."
